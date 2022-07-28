@@ -1,0 +1,186 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body {
+ background-color: 	#FA8072; 
+}
+
+/* STYLE TEXT */
+#Qoute {
+  font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+  text-align: center;
+  font-size: 110%;
+     margin-bottom: 30px;
+   margin-top: 30px;
+}
+h1 {
+  color: black;
+  font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-size: 340%;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+h2 {
+text-align:center;
+margin-bottom:-10px;
+font-family: 'Amatic SC', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-size:150%;
+margin-bottom: 30px;
+margin-top: 50px;
+color: #black;
+
+}
+p {
+  text-align:center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Public Sans', sans-serif;
+}
+
+/* STYLE IMAGES */
+img {
+  height: 20em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+#mainimg {
+height: 100em  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+   margin-bottom: 30px;
+   margin-top: 30px
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color:#800000;
+  overflow: hidden;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 2em;
+}
+
+li a:hover {
+  background-color: #6b0000;
+}
+
+li a {
+  text-align: center;
+}
+
+/* STYLE BUTTONS */
+#myButton{
+    background: #7a67a8;
+ border: 1px solid #438d93;
+  border-style: outset;
+ padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 10%;
+color: #ffffff;
+  font-size: 1em;
+}
+
+.genFact {
+  background: #9f1d35;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #orange;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #f4a261ff;
+
+}
+#factGenerator {
+text-align:center;
+  margin-bottom:-10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size:150%;
+     margin-bottom: 30px;
+   margin-top: 50px;  
+}
+
+/* ADD MORE! */
+
+/* Style the overlay */
+
+#overlay{
+  position: fixed;
+  width:100%;
+  height:100;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:lightpink;
+  z-index:2;
+  cursor:pointer;
+  text-align:center;
+}
+#exit{
+  margin-top: 5px;
+  padding: 13px;
+  border-radius: 5%;
+border-style: outset; 
+}
+#proceed{
+  margin-top: 5px;
+  padding: 13px;
+  border-radius: 5%;
+  border-style: outset; 
+}
